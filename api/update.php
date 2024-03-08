@@ -1,7 +1,6 @@
 <?php
 
 $id=$_POST['id'];
-
 $name=$_POST['username'];
 $password=$_POST['password'];
 
@@ -11,6 +10,6 @@ $query = "UPDATE `users` SET username='$name' , password='$password' WHERE id='$
 
 mysqli_query($connection, $query);
 
-// header("location:../index.php");
-echo "updated...";
+header("location:../index.php");
+
 ?>

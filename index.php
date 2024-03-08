@@ -46,8 +46,8 @@ $index=0;
                 <td><?=  ++$index ?></td>
                 <td><?=  $row['username'] ?></td>
                 <td><?= $row['password'] ?></td>
-                <td><button class="container btn btn-danger" value="submit" name="submit"><a href="api/delete.php ? id=<?=  $row['id'] ?>"> Delete</a></button></td>
-                <td><button class="container btn btn-danger" value="submit" name="submit"><a href="api/updatepage.php ? id=<?= $row['id']?>">Update</a></button></td>
+                <td><button class="container btn btn-danger" value="submit" name="submit"><a href="api/delete.php?id=<?=  $row['id'] ?>"> Delete</a></button></td>
+                <td><button class="container btn btn-danger" value="submit" name="submit"><a href="pages/updatepage.php?id=<?= $row['id']?>">Update</a></button></td>
             </tr>
            
 <?php } ?>
