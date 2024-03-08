@@ -52,7 +52,7 @@ $data=mysqli_fetch_assoc($result);
                         if(response)
                         {
                             console.log('updated......');
-                            // window.location.href = "../index.php"
+                            window.location.href = "../index.php"
                         }
                         else 
                         console.log('not updated......');

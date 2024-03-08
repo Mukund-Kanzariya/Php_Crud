@@ -10,6 +10,4 @@ $query = "UPDATE `users` SET username='$name' , password='$password' WHERE id='$
 
 mysqli_query($connection, $query);
 
-header("location:../index.php");
-
 ?>
